@@ -1133,3 +1133,66 @@ body {
         max-width: 90%;
     }
 }
+
+.team__title {
+    margin-top: 1.5rem;
+    margin-bottom: 0px;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.5
+}
+
+@media (min-width: 1200px) {
+    .team__title {
+        font-size:45px
+    }
+}
+
+.credit-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+.credits {
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  }
+  
+.credit {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+  }
+  
+.name {
+    font-family: "Raleway",sans-serif;
+    width: 70%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+.license {
+    color: #fff;
+    font-family: "Raleway",sans-serif;
+    width: 30%;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+.names, .licenses {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+  }
