@@ -721,6 +721,12 @@ b{
     }
 }
 
+@media (min-width: 1200px) {
+    .demo__title-m {
+        max-width: 500px
+    }
+}
+
 .demo__description {
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
