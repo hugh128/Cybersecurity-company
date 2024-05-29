@@ -1083,3 +1083,47 @@ body {
     margin-top: 40px;
     width: 60px;
 }
+
+.video__title {
+    margin-top: 1.5rem;
+    margin-bottom: 0px;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.5
+}
+
+@media (min-width: 1200px) {
+    .video__title {
+        font-size:45px
+    }
+}
+
+.video__description {
+    font-size: 16px;
+    color: #dad8d8;
+    line-height: 1.6
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.video-section h2 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .sales-promotions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sales-promotion {
+        max-width: 90%;
+    }
+}
